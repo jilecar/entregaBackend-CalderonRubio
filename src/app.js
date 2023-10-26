@@ -1,5 +1,6 @@
 //Archivo principal que inicia el servidor Express
 const express = require('express');
+
 const app = express();
 const productsRouter = require('./products');
 const cartsRouter = require('./carts');
