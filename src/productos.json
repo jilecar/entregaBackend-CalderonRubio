@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "title": "iPad",
+        "description": "Tablet para trabajo remoto",
+        "code": "abc1",
+        "price": 185000,
+        "status": true,
+        "stock": 32,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mouse",
+        "description": "Mouse inalambtico",
+        "code": "abc2",
+        "price": 25000,
+        "status": true,
+        "stock": 50,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Sofa",
+        "description": "sofa reclinable",
+        "code": "abc3",
+        "price": 100000,
+        "status": true,
+        "stock": 10,
+        "category": "Hogar",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Escoba",
+        "description": "Escoba de alta duración",
+        "code": "abc4",
+        "price": 7800,
+        "status": true,
+        "stock": 16,
+        "category": "Hogar",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Laoptop Asus",
+        "description": "Ryzen 5, memoria de 16 GB",
+        "code": "abc5",
+        "price": 2800000,
+        "status": true,
+        "stock": 10,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Comedor",
+        "description": "Comedor de 5 puestos",
+        "code": "abc6",
+        "price": 1600000,
+        "status": true,
+        "stock": 5,
+        "category": "Hogar",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Mesa para TV",
+        "description": "Mesa para televisor de 55 in",
+        "code": "abc7",
+        "price": 250000,
+        "status": true,
+        "stock": 12,
+        "category": "Hogar",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Teclado",
+        "description": "Teclado inalambtico",
+        "code": "abc8",
+        "price": 25000,
+        "status": true,
+        "stock": 30,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Kit Teclado + Mpuse",
+        "description": "Kit de Teclado + Mouse inalambrico",
+        "code": "abc9",
+        "price": 50000,
+        "status": true,
+        "stock": 25,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Escritorio para trabajo",
+        "description": "Escritorio en madera para oficina",
+        "code": "abc10",
+        "price": 500000,
+        "status": true,
+        "stock": 5,
+        "category": "Oficina",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Tablero Digital",
+        "description": "Tablero interactivo para presentaciones",
+        "code": "abc11",
+        "price": 8000000,
+        "status": true,
+        "stock": 5,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Impresora Multifuncional",
+        "description": "Impresora Multifuncional de tinta continua",
+        "code": "abc12",
+        "price": 1100000,
+        "status": true,
+        "stock": 18,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Escaner",
+        "description": "Escaner HP S0005",
+        "code": "abc13",
+        "price": 1500000,
+        "status": true,
+        "stock": 14,
+        "category": "Tecnologia",
+        "thumbnails": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    }
+]
