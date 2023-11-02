@@ -6,7 +6,7 @@ import dataAccess from './dataAccess.js';
 
 // Define rutas para productos
 productsRouter.get('/', (req, res) => {
-  const products = dataAccess.readData('productos.json');
+  const products = dataAccess.readData('./productos.json');
   res.json(products);
 });
 

@@ -1,5 +1,5 @@
 import fs from 'fs';
-//import { v4, uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'; // Cambia la importación de 'uuid' para asignar un alias a v4
 
 function readData(file) {
   try {
@@ -35,4 +35,4 @@ function generateUniqueID(existingData) {
   return id;
 }
 
-export default { readData, writeData, generateUniqueID }; 
+export default { readData, writeData, generateUniqueID };
