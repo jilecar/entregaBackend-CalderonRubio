@@ -1,8 +1,8 @@
 //Rutas y logica relacionada con los carritos
 
-const express = require('express');
-const cartsRouter = express.Router();
-const dataAccess = require('./dataAccess');
+import express from 'express';
+import cartsRouter from express.Router();
+import dataAccess from './dataAccess.js';
 
 // Define rutas para carritos
 cartsRouter.post('/', (req, res) => {
@@ -49,4 +49,4 @@ cartsRouter.post('/:cid/products/:pid', (req, res) => {
   }
 });
 
-module.exports = cartsRouter;
+export default cartsRouter;

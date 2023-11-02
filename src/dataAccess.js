@@ -1,19 +1,30 @@
-//Funciones para leer y escribir los datos en archivos JSON
-
-const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
+import fs from 'fs';
+//import { v4, uuidv4 } from 'uuid';
 
 function readData(file) {
   try {
     const data = fs.readFileSync(file, 'utf8');
     return JSON.parse(data);
   } catch (error) {
+    console.error('Error al leer el archivo:', error);
     return [];
   }
 }
 
-function writeData(file, data) {
-  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+function writeData(fileName, data, callback) {
+  fs.writeFile(fileName, JSON.stringify(data, null, 2), (err) => {
+    if (err) {
+      console.error('Error al escribir en el archivo:', err);
+      if (callback) {
+        callback(err);
+      }
+    } else {
+      console.log('Datos escritos correctamente en el archivo:', fileName);
+      if (callback) {
+        callback(null);
+      }
+    }
+  });
 }
 
 function generateUniqueID(existingData) {
@@ -24,4 +35,4 @@ function generateUniqueID(existingData) {
   return id;
 }
 
-module.exports = { readData, writeData, generateUniqueID };
+export default { readData, writeData, generateUniqueID }; 

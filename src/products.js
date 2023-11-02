@@ -1,8 +1,8 @@
 //Rutas y logica relacionada con los productos
 
-const express = require('express');
+import express from 'express';
 const productsRouter = express.Router();
-const dataAccess = require('./dataAccess');
+import dataAccess from './dataAccess.js';
 
 // Define rutas para productos
 productsRouter.get('/', (req, res) => {
@@ -63,4 +63,4 @@ productsRouter.delete('/:pid', (req, res) => {
   }
 });
 
-module.exports = productsRouter;
+export default productsRouter;
