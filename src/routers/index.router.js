@@ -2,8 +2,8 @@ import { Router } from "express";
 
 const router =Router();
 
-router.get('/',(req, res)=>{
-    res.render('index',{title:'Desafio'})
+router.get('/', (req, res)=>{
+    res.render('home.handlebars',{ title:'Desafio' })
 })
 
-export default router
+export default router;
